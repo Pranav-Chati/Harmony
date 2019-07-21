@@ -1,0 +1,399 @@
+#home-background {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  top: 5%;
+  left: 30%;
+}
+body {
+  margin: 0px;
+}
+
+
+
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav{
+  margin: 0px;
+  padding: 10px 10px;
+  overflow: hidden;
+  background-color:black;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  color: white;
+  font-size: 2em;
+}
+
+nav a {
+  display: block; 
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  transition: .4s;
+  font-size: 25px;
+}
+
+
+/* Change the link color to #111 (black) on hover */
+nav a:hover {
+  background-color: magenta;
+  
+}
+
+#title {
+  font-family: 'Pacifico', cursive;
+}
+#title:hover {
+  background-color: magenta;
+}
+
+#accname {
+  color: #d93468;
+  font-family: 'PT Sans', sans-serif;
+  text-align:center;
+}
+
+#pfp {
+  border-radius:50%;
+  width: 200px;
+  height: 200px;
+  text-align:left;
+  padding: 25px 50px;
+}
+
+#username {
+    color:#d93468;
+font-family: 'Darker Grotesque', sans-serif;  text-align:center;
+}
+
+#instaicon {
+  width: 6%;
+  height: 5%;
+}
+
+.flex-box {
+  display: flex;
+  flex-direction: row;}
+
+
+#epb, #b2e {
+  display: block;
+  /* margin-right: auto; */
+  width:150px; 
+  height:50px;
+  font-size: 1.5em;
+  transition: .5s ease;
+  top: 90px;
+  left: -80px;
+   bottom: -100px;
+   color: #d93468;
+   background-color: white;
+   box-shadow: 10px;
+}
+
+#broken-one {
+  /* display: block; */
+
+
+
+
+  
+  /* margin-right: auto; */
+  /* width:150px;  */
+  /* height:50px; */
+  /* font-size: 1.5em; */
+  /* transition: .5s ease; */
+  top: 90px;
+  left: 80px;
+   bottom: -100px;
+   color: #d93468;
+   background-color: white;
+   box-shadow: 10px;
+}
+
+#epb:hover{
+  color: white;
+  background-color: #d93468;
+}
+
+#profile {
+  margin-top: -16%;
+}
+
+
+#drake {
+  padding: 20px 20px;
+}
+
+
+.dropbtn {
+  /* background-color: ; */
+  color: white;
+  padding: 16px;
+  /* font-size: 16px; */
+  border: none;
+  display: block; 
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+  text-align: center;
+  /* padding: 14px 16px; */
+  transition: .4s;
+  font-size: 25px;
+}
+
+.dropdown {
+  /* position: relative;  */
+   display: inline-block; 
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-left: -24.5vw;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color:magenta;}
+
+#login-thing {
+  margin-left: 50px;
+}
+
+.login-form {
+  display: block;
+  margin-right: auto;
+  position:relative;
+  font-size: 1.5em;
+  transition: .5s ease;
+  top: 200px;
+  bottom: -100px;
+  color: #d93468;
+  background-color: white;
+  box-shadow: 10px;
+  position: fixed;
+  left: 45%;
+  margin-top: -50px;
+  margin-left: -100px;
+  /* text-align: left; */
+}
+
+.register-form {
+  display: block;
+  /* margin-right: auto; */
+  /* position:relative; */
+  font-size: 1.5em;
+  transition: .5s ease;
+  color: #d93468;
+  background-color: white;
+  box-shadow: 10px;
+  margin-left: 550px;
+} 
+
+#username {
+  width: 200%;
+  height: 5%;
+  color: black;
+}
+
+#password {
+  width: 200%;
+  height: 5%;
+  color: black;
+}
+
+#sign-in {
+   color: #d93468;
+   background-color: white;
+   box-shadow: 10px;
+   width: 200%;
+   height: 5%;
+}
+
+#sign-in:hover {
+  color: white;
+  background-color: #d93468;
+}
+
+#register {
+  color: #d93468;
+  background-color: white;
+  box-shadow: 10px;
+  width: 200%;
+  height: 5%;
+}
+#login-page {
+position:relative;
+opacity:100;
+}
+#profile-page {
+  position:relative;
+  opacity: 0;
+}
+
+#username-reg {
+  width: 200%;
+  height: 5%;
+  color: black;
+}
+
+#password-reg {
+  width: 200%;
+  height: 5%;
+  color: black;
+}
+
+#email {
+  width: 200%;
+  height: 5%;
+  color: black;
+}
+
+#dispname {
+  width: 200%;
+  height: 5%;
+  color: black;
+}
+
+#reg-title {
+  color:black;
+}
+
+#home-background-real {
+  position: relative;
+  width: 100%;
+
+}
+
+.container-home {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.front-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+}
+
+#friend-title {
+  margin-left: 50px;
+}
+
+#bts {
+  padding: 20px 20px;
+}
+
+#ariana {
+  position: relative;
+  padding: 20px 20px;
+}
+
+
+#library-title {
+  margin-left: 50px;
+  color: #d93468;
+}
+
+.p-spotify {
+  position: relative;
+  
+  left: 50px;
+}
+
+#PranavChati {
+  padding: 20px 20px 20px 20px;
+  width: 300px;
+  height:900px;
+  border:2px;
+  position:abosolue;
+  border-color:black;  
+  padding: 20px 0px;
+}
+
+.friendb {
+  margin-left: 10px;
+  float: right;
+  margin-right: 10px;
+}
+
+#addb {
+  margin-right: 50px;
+}
+
+
+#Shriram, #PranavChati{
+  width:400px;
+  height:725px;
+  border: 2px solid #000000;
+  margin:10px;
+}
+  
+#imgPC, #imgS  {
+  border-radius:50%;  
+  width: 200px;
+  height: 200px;
+  position: relative;
+  left: 100px;
+}
+
+#friend-text, #friend-text1 {
+  border-radius:50%;  
+  /* width: 200px; */
+  /* height: 200px; */
+  left: 0px;
+  position: relative;
+}
+
+#rec-title {
+  color:#d93468;
+  padding-left: 50px;
+}
+
+.button-friends {
+  width: 50px;
+  background-color: white;
+  color: #d93468;
+
+}
+
+#rec-text {
+  font-size: 20px;
+  font-family: serif;
+  padding-left: 50px;
+}

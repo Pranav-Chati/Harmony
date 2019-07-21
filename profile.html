@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Barlow:100i,400|Darker+Grotesque|PT+Sans&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Harmony | Profile</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+  <nav>
+		<a href="index.html" id="title">Harmony</a>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="library.html">Library</a></li>
+			<div class ="dropdown"> 
+				<li class="dropbtn"><a href="profile.html" id="profile">Profile</a></li>
+					<div class = "dropdown-content">
+						<ul>
+							<li><a href="profile.html">Profile</a></li>
+							<li><a href="friends.html">Friends</a></li>
+							<li><a href="rec.html" id="rec">Recommendations</a></li>
+							<!-- <li><a href="profile.html" onclick="logoutaction()"id="logout">Logout</a></li> -->
+						</ul>
+					</div>
+			</div>
+			<li><a href="login.html" id="login">Login</a></li>
+
+		</ul>
+	</nav>
+  <!--
+    why tf we make an input box
+  <input type="text" placeholder="Search.." id = "search">
+  -->
+<div id="profile-page">
+<div class="flex-box">
+    <img id="pfp" src="https://media.licdn.com/dms/image/C4E03AQEi5MuUpzPPsA/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=fMdtOdqDQQjg58kx453tPa-JF6nRKUlL7XnSVYw5ff0">
+    
+    
+    <div>
+      <h1 id="accname" style="text-align:left"> Emily Yang</h1> 
+        <button id="epb">Edit Profile</button>
+        <button id="b2e"onclick="logoutaction()">Log Out</button>
+    </div>
+  </div>
+</div>
+ 
+<div id="login-page">
+    <form class="login-form" > 
+        <p>Username:</p>
+        <input type="text" id="username1" placeholder="Your Username . . . ">
+        <p>Password:</p>
+        <input type="password" id="password1" placeholder="Your Password . . . ">
+        <br><br>
+        <button id="sign-in" onclick="loginaction()">Sign In</button> 
+        <button onclick="logoutaction()"> Sign Out</button>
+        <br><br>
+        <button id = "register"><a href="register.html">Register</a></button>
+        <!-- <a href="register.html" id="register">Register</a> -->
+        <!-- <button onclick="window.location.href = 'register.html'">qirheohf</button> -->
+        <!-- <button id="register" href= 'register.html'>Register</button> -->
+    </form>
+    
+    
+        
+</div> 
+  <script src="script.js"></script>
+  <!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
+
+
+        <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/6.3.1/firebase-app.js"></script>
+
+        <script defer src="https://www.gstatic.com/firebasejs/6.3.1/firebase-firestore.js"></script>
+
+        <script src="https://www.gstatic.com/firebasejs/6.3.1/firebase-auth.js"></script>
+
+
+            <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <!-- <script src="https://www.gstatic.com/firebasejs/6.3.1/firebase-app.js"></script> -->
+
+        <!-- TODO: Add SDKs for Firebase products that you want to use
+            https://firebase.google.com/docs/web/setup#config-web-app -->
+        <script src="fbserver.js"></script>
+</body>
+
+</html>

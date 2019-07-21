@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>My Library</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body class="background-library">
+	<nav>
+		<a href="index.html" id="title">Harmony</a>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="library.html">Library</a></li>
+			<div class ="dropdown"> 
+				<li class="dropbtn"><a href="profile.html" id="profile">Profile</a></li>
+					<div class = "dropdown-content">
+						<ul>
+							<li><a href="profile.html">Profile</a></li>
+							<li><a href="friends.html">Friends</a></li>
+							<li><a href="rec.html" id="rec">Recommendations</a></li>
+							<!-- <li><a href="profile.html" onclick="logoutaction()"id="logout">Logout</a></li> -->
+						</ul>
+					</div>
+			</div>
+			<li><a href="login.html" id="login">Login</a></li>
+
+		</ul>
+	</nav>
+  <!--
+    why tf we make an input box
+  <input type="text" placeholder="Search.." id = "search">
+  -->
+</div>
+<h1 id="library-title"> My Library </h1>
+<div class="">
+	<iframe src="https://open.spotify.com/embed/artist/3Nrfpe0tUJi4K4DXYWgMUX" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media" id = "bts"></iframe>
+	<iframe src="https://open.spotify.com/embed/artist/66CXWjxzNUsdJxJ2JdwvnR" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media" id = "ariana"></iframe>
+	<iframe src="https://open.spotify.com/embed/artist/3TVXtAsR1Inumwj472S9r4" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media" id="drake"></iframe>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>

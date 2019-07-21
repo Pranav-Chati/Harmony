@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Harmony</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<nav>
+		<a href="index.html" id="title">Harmony</a>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="library.html">Library</a></li>
+			<div class ="dropdown"> 
+				<li class="dropbtn"><a href="profile.html" id="profile">Profile</a></li>
+					<div class = "dropdown-content">
+						<ul>
+							<li><a href="profile.html">Profile</a></li>
+							<li><a href="friends.html">Friends</a></li>
+							<li><a href="rec.html" id="rec">Recommendations</a></li>
+							<!-- <li><a href="profile.html" onclick="logoutaction()"id="logout">Logout</a></li> -->
+						</ul>
+					</div>
+			</div>
+			<li><a href="login.html" id="login">Login</a></li>
+
+		</ul>
+	</nav>
+    <form class="register-form" > 
+			<h1 id="reg-title"> Register</h1>
+		<!--Use these ids for the register fields or i swear to god
+			1. Display Name: dname
+			2. Email Address: useremail
+			3. Password: userpass
+			4. Photo Url: purl -->
+		<div>
+			<p> Display Name: </p>
+			<input type="text" id="dname" value="god">
+			<p> Email:</p>
+			<input type="text" id="useremail" value="useremail@gmail.com">
+     	   <p>Password:</p>
+			<input type="text" id="userpass" value="password">
+			<p>Photo Picture Address:</p>
+			<input type="text" id="purl" value="photo address">
+		</div>
+		
+        <button id="register-button" onclick="registeracc()"><a href="login.html"></a>Register</button>
+	</form>
+
+	<script src="https://www.gstatic.com/firebasejs/6.3.1/firebase-app.js"></script>
+
+        <script defer src="https://www.gstatic.com/firebasejs/6.3.1/firebase-firestore.js"></script>
+
+        <script src="https://www.gstatic.com/firebasejs/6.3.1/firebase-auth.js"></script>
+	<script src="fbserver.js"></script>
+	
+</body>
+
+</html>
