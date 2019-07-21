@@ -330,7 +330,7 @@ opacity:100;
   color: #d93468;
 }
 
-.p-spotify {
+.p-spotify, .s-spotify {
   position: relative;
   
   left: 50px;
